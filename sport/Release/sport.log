@@ -1,0 +1,29 @@
+﻿Build started 2018/3/10 19:55:39.
+     1>Project "D:\DEV\VC2010\sport\sport\sport.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "D:\DEV\VC2010\sport\Release\".
+       InitializeBuildStatus:
+         Creating "Release\sport.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         d:\Application\VS2010\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\sport.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         d:\Application\VS2010\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\sport.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt sport.cpp
+         sport.cpp
+     1>sport.cpp(7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Application\VS2010\VC\include\stdio.h(234) : see declaration of 'fopen'
+       Link:
+         d:\Application\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\DEV\VC2010\sport\Release\sport.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\sport.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\DEV\VC2010\sport\Release\sport.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\DEV\VC2010\sport\Release\sport.lib" /MACHINE:X86 Release\sport.obj
+         Release\stdafx.obj
+         Generating code
+         Finished generating code
+         sport.vcxproj -> D:\DEV\VC2010\sport\Release\sport.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\DEV\VC2010\sport\Release\sport.exe;#1" /manifest Release\sport.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\sport.unsuccessfulbuild".
+         Touching "Release\sport.lastbuildstate".
+     1>Done Building Project "D:\DEV\VC2010\sport\sport\sport.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.39

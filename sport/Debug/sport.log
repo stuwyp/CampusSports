@@ -1,0 +1,42 @@
+﻿生成启动时间为 2018/3/28 23:59:57。
+     1>项目“F:\vs2013\sport\sport\sport.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\sport.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt menu_admin.cpp
+         menu_admin.cpp
+     1>f:\vs2013\sport\sport\menu_admin.cpp(353): warning C4101: “maxpeople”: 未引用的局部变量
+     1>f:\vs2013\sport\sport\menu_admin.cpp(355): warning C4101: “finNum”: 未引用的局部变量
+     1>f:\vs2013\sport\sport\menu_admin.cpp(627): warning C4101: “rank”: 未引用的局部变量
+     1>f:\vs2013\sport\sport\menu_admin.cpp(823): warning C4101: “rank”: 未引用的局部变量
+     1>f:\vs2013\sport\sport\menu_admin.cpp(1099): warning C4101: “i”: 未引用的局部变量
+     1>f:\vs2013\sport\sport\menu_admin.cpp(1098): warning C4101: “ret”: 未引用的局部变量
+     1>f:\vs2013\sport\sport\menu_admin.cpp(1122): warning C4101: “spEve”: 未引用的局部变量
+     1>f:\vs2013\sport\sport\menu_admin.cpp(1123): warning C4101: “peoid”: 未引用的局部变量
+     1>f:\vs2013\sport\sport\menu_admin.cpp(1124): warning C4101: “rank”: 未引用的局部变量
+     1>f:\vs2013\sport\sport\menu_admin.cpp(1162): warning C4101: “i”: 未引用的局部变量
+     1>f:\vs2013\sport\sport\menu_admin.cpp(1161): warning C4101: “ret”: 未引用的局部变量
+     1>f:\vs2013\sport\sport\menu_admin.cpp(1186): warning C4101: “rank”: 未引用的局部变量
+     1>f:\vs2013\sport\sport\menu_admin.cpp(1371): warning C4101: “dmorn”: 未引用的局部变量
+     1>f:\vs2013\sport\sport\menu_admin.cpp(1371): warning C4101: “dafte”: 未引用的局部变量
+     1>f:\vs2013\sport\sport\menu_admin.cpp(1371): warning C4101: “anum”: 未引用的局部变量
+     1>f:\vs2013\sport\sport\menu_admin.cpp(1371): warning C4101: “mnum”: 未引用的局部变量
+     1>f:\vs2013\sport\sport\menu_admin.cpp(1685): warning C4101: “eveid”: 未引用的局部变量
+     1>f:\vs2013\sport\sport\menu_admin.cpp(1784): warning C4101: “user”: 未引用的局部变量
+     1>f:\vs2013\sport\sport\menu_admin.cpp(1797): warning C4101: “admin”: 未引用的局部变量
+       Link:
+         D:\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\vs2013\sport\Debug\sport.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\vs2013\sport\Debug\sport.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\vs2013\sport\Debug\sport.lib" /MACHINE:X86 Debug\inter_eve.obj
+         Debug\inter_other.obj
+         Debug\inter_per.obj
+         Debug\inter_sys.obj
+         Debug\main.obj
+         Debug\menu.obj
+         Debug\menu_admin.obj
+         Debug\menu_tourist.obj
+         Debug\menu_user.obj
+         Debug\operation.obj
+         Debug\stdafx.obj
+         sport.vcxproj -> F:\vs2013\sport\Debug\sport.exe
+     1>已完成生成项目“F:\vs2013\sport\sport\sport.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.51
