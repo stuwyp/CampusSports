@@ -1,3 +1,4 @@
+*.html linguist-language=c
 # Prerequisites
 *.d
 
